@@ -14,7 +14,7 @@ public class Cliente {
     private Endereco endereco;
     private String telefone;
     private String email;
-	@Column(name = "data_nascimento")
+    @Column(name = "data_nascimento")
     private LocalDate dataNascimento;
     private String cpf;
 
